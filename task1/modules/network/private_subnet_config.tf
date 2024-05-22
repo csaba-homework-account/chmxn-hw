@@ -1,4 +1,3 @@
-##### Private subnet config #####
 resource "aws_subnet" "private_subnets" {
   count             = length(var.private_subnet_cidrs)
 
